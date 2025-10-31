@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 4a1a849a7e930b442a5db436ed526479, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 4a1a849a7e930b442a5db436ed526479, type: 3}
       propertyPath: m_SortingLayer
       value: 1
@@ -153,11 +157,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 4a1a849a7e930b442a5db436ed526479, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.48000002
+      value: 0.58
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 4a1a849a7e930b442a5db436ed526479, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.89
+      value: -4.16
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 4a1a849a7e930b442a5db436ed526479, type: 3}
       propertyPath: m_LocalPosition.z
@@ -218,7 +222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &240554521
 Transform:
   m_ObjectHideFlags: 0
@@ -228,7 +232,7 @@ Transform:
   m_GameObject: {fileID: 240554520}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.33, y: -0.06, z: 0}
+  m_LocalPosition: {x: -0.77, y: -1.57, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -358,6 +362,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b325b73c2729514182ece4678a4b3c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  path: {fileID: 0}
+  t_path: {fileID: -8328923581568760697, guid: 93b274eb5a1f4514f92f898332231abd, type: 3}
 --- !u!1 &454977121
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,16 +646,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -2253911629886400664, guid: 93b274eb5a1f4514f92f898332231abd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 93b274eb5a1f4514f92f898332231abd, type: 3}
       propertyPath: m_TagString
       value: Path
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 93b274eb5a1f4514f92f898332231abd, type: 3}
       propertyPath: m_SortingLayer
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 93b274eb5a1f4514f92f898332231abd, type: 3}
       propertyPath: m_SortingLayerID
-      value: -666267757
+      value: -123188391
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 93b274eb5a1f4514f92f898332231abd, type: 3}
       propertyPath: m_LocalScale.x
