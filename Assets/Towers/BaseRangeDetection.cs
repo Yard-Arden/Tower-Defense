@@ -122,7 +122,7 @@ public class BaseRangeDetection : MonoBehaviour
       if (currentDetectMode != DetectionMode.Trigger) return;
       if (!other.CompareTag(targetTag)) return;
 
-      var enemy = other.GetComponentInParent<RegisterAsEnemy>(); //Regisfter
+      var enemy = other.GetComponentInParent<RegisterAsEnemy>(); //Register
       if (enemy)
       {
          inRange.Remove(enemy);
